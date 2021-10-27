@@ -27,7 +27,7 @@
     background-clip: text;
     -webkit-background-clip: text; 
     -webkit-text-fill-color: transparent;
-    animation-duration: 10s;
+    animation-duration: 40s;
     animation-iteration-count: infinite;
     animation-direction: alternate;
     animation-timing-function: linear;
@@ -95,9 +95,13 @@
     color: white;
 }
 
+.socialMedia_icon {
+    cursor: pointer;
+}
+
 .socialMedia div {
     margin: 0px 10px;
-    font-size: 1.8em;
+    font-size: 1.5em;
     display: flex;
     flex-flow: row;
     align-items: center;

@@ -19,11 +19,11 @@ function Header() {
             <SingUpBox />
 
             <div className="socialMedia">
-                <div><BsInstagram /></div>
-                <div><BsYoutube /></div>
-                <div><BsLinkedin /></div>
-                <div><BsTwitter /></div>
-                <div><BsFacebook /></div>
+                <div><BsInstagram className="socialMedia_icon"/></div>
+                <div><BsYoutube className="socialMedia_icon"/></div>
+                <div><BsLinkedin className="socialMedia_icon"/></div>
+                <div><BsTwitter className="socialMedia_icon"/></div>
+                <div><BsFacebook className="socialMedia_icon"/></div>
             </div>
 
         </div>
