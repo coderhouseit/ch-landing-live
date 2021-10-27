@@ -1,0 +1,125 @@
+.headerCointainer {
+    min-height: 100vh;
+    height: 100vh;
+    background-color: #6965DE;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-content: center;
+    background-image: url("./assets/header-img.png");
+    background-size: 102%;
+    background-position-y: 35%;
+    background-position-x: center;
+}
+
+.logo {
+    margin-top: 50px;
+    width: 100%;
+    height: 15%;
+    font-family: 'Gobold', sans-serif;
+    font-style: italic;
+    font-size: 2em;
+    color: white;
+}
+  
+.logo span {
+    background-image: url(https://img.freepik.com/free-photo/_40163-61.jpg?size=626&ext=jpg); 
+    background-clip: text;
+    -webkit-background-clip: text; 
+    -webkit-text-fill-color: transparent;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: linear;
+    animation-name: fluid;
+    background-size: 800%;
+}
+  
+@keyframes fluid {
+    from {
+      background-position: top;
+    }
+  
+    to {
+      background-position: bottom;
+    }
+}
+ 
+@media (max-width: 500px){
+    .headerCointainer {
+        background-size: 200%;
+    }
+}
+
+.mainContainer {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+}
+
+.main__date {
+    font-family: 'Gobold', sans-serif;
+    font-size: 2em;
+    color: white;
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+.main__date span {
+    color: #DBE120;
+}
+
+.main_title_container{
+    max-width: 500px;
+    width: 100%;
+    font-size: 12px;
+}
+
+.main__title {
+    margin: 50px 10px 0px 10px;
+    font-family: 'Gobold', sans-serif;
+    color: white;
+    font-style: italic;
+    font-size: 6em;
+}
+
+.socialMedia {
+    height: 15%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    color: white;
+}
+
+.socialMedia div {
+    margin: 0px 10px;
+    font-size: 1.8em;
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+}
+
+@media (max-width: 1024px) {
+    .headerCointainer{
+        background-size: 252%;
+        background-position-y: center;
+    }
+}
+
+@media (max-width: 500px) {
+    .logo {
+        font-size: 1.5em;
+    }
+
+    .main__date {
+        font-size: 1.5em;
+    }
+
+    .main__title {
+        font-size: 4em;
+    }
+}

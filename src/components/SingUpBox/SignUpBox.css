@@ -1,0 +1,96 @@
+.signUpForm_container {
+    margin-top: 50px;
+    height: 20%;
+    width: 100%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+}
+
+.signUpForm {
+    width: 400px;
+    height: 50px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    border: 2px solid #DBE120;
+    background-color: rgba(50, 50, 50, 0.4);
+}
+
+.signUpForm input {
+    padding-left: 17px;
+    width: 100%;
+    cursor: text;
+    font-family: 'poppins';
+    font-size: 0.8em;
+    justify-self: center;
+    border: none;
+    background: transparent;
+}
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #B5B5B5;
+    opacity: 1; /* Firefox */
+    font-size: 0.9em;
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: #B5B5B5;
+    font-size: 0.9em;
+}
+   
+::-ms-input-placeholder { /* Microsoft Edge */
+    color: #B5B5B5;
+    font-size: 0.9em;
+}
+
+input[type=text] {
+    height: 90%;
+    width: 100%;
+    color: white;
+    font-size: 1em;
+    text-decoration: none;
+    border: none;
+}
+
+input:focus {
+    outline: none;
+}
+
+.signUpForm_button_box {
+    width: 40%;
+    height: 19%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.signUpForm div button {
+    margin-right: 3px;
+    width: 125px;
+    height: 44px;
+    cursor: pointer;
+    font-family: 'poppins';
+    font-size: 0.9em;
+    font-weight: bolder;
+    border: none;
+    border-radius: 4px;
+    background-color: #DBE120;
+}
+
+
+@media (max-width: 430px) {
+    .signUpForm {
+        width: 320px;
+        height: 45px;
+    }
+
+    .signUpForm div button {
+        width: 80px;
+        height: 41px;
+        font-size: 0.7em;
+    }
+}
