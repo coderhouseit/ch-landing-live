@@ -27,6 +27,8 @@ This project consists of a main page with the event title and a simple email sub
 
 ## Preview:
 
+Desktop version
 ![Desktop version](https://i.ibb.co/ScGHByw/Captura-de-Pantalla-2021-10-26-a-la-s-23-52-45.png)
 
+Mobile version
 ![Mobile version](https://i.ibb.co/1LLYXQ2/Captura-de-Pantalla-2021-10-26-a-la-s-23-53-00.png)
