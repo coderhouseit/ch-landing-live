@@ -15,8 +15,8 @@
     width: 50vw;
     min-width: 310px;
     min-height: 250px;
-    border: 1px solid yellow;
-    border-radius: 10px;
+    border: 1px solid #E0FF00;
+    border-radius: 5px;
     background-color: gray;
     display: flex;
     flex-flow: column nowrap;
@@ -35,7 +35,7 @@
 }
 
 .alert_message {
-    margin: 10px 0px;
+    margin: 10px 5px;
     font-family: 'Gobold', sans-serif;
     font-size: 1.5vw;
     font-size: 2.5vmin;
@@ -50,9 +50,15 @@
     font-family: 'poppins';
     font-weight: bolder;
     font-size: 0.8em;
-    background-color: yellow;
+    background-color: #E0FF00;
     border: none;
     border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+
+.alertMessage_container button:hover {
+    background-color: yellow;
 }
 
 .visible {
