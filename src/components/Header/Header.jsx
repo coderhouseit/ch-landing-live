@@ -20,11 +20,11 @@ function Header() {
             <SingUpBox />
 
             <div className="socialMedia">
-                <a href="#"> <BsInstagram className="socialMedia_icon"/> </a>
-                <a href="#"> <BsYoutube className="socialMedia_icon"/> </a>
-                <a href="#"> <BsLinkedin className="socialMedia_icon"/> </a>
-                <a href="#"> <BsTwitter className="socialMedia_icon"/> </a>
-                <a href="#"> <BsFacebook className="socialMedia_icon"/> </a>
+                <a href="https://www.instagram.com/coderhouse/" target="_blank"> <BsInstagram className="socialMedia_icon"/> </a>
+                <a href="https://www.youtube.com/channel/UCeFRG6700bzqYI0M_9vyelw/videos" target="_blank"> <BsYoutube className="socialMedia_icon"/> </a>
+                <a href="https://www.linkedin.com/school/coderhouse/" target="_blank"> <BsLinkedin className="socialMedia_icon"/> </a>
+                <a href="https://twitter.com/CODERHOUSE" target="_blank"> <BsTwitter className="socialMedia_icon"/> </a>
+                <a href="https://www.facebook.com/Coderhouse/" target="_blank"> <BsFacebook className="socialMedia_icon"/> </a>
             </div>
 
             <SignUpAlert />
