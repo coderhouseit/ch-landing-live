@@ -14,7 +14,7 @@ function SingUpBox() {
 
             <form className='signUpForm'>
 
-                <input placeholder="Insgresá tu correo" type='text'/>
+                <input placeholder="Ingresá tu correo" type='text'/>
                 
                 <div className='signUpForm_button_box'>
                     <button onClick={ clickHandler }>Inscribirse</button>
