@@ -7,9 +7,10 @@
     justify-content: center;
     align-content: center;
     background-image: url("./assets/header-img.png");
-    background-size: 102%;
-    background-position-y: 35%;
+    background-size: cover;
+    background-position-y: center;
     background-position-x: center;
+    background-repeat: no-repeat;
 }
 
 .logo {
@@ -42,12 +43,6 @@
   
     to {
       background-position: bottom;
-    }
-}
- 
-@media (max-width: 500px){
-    .headerCointainer {
-        background-size: 200%;
     }
 }
 
@@ -92,26 +87,20 @@
     display: flex;
     flex-flow: row nowrap;
     justify-content: center;
-    color: white;
 }
 
 .socialMedia_icon {
     cursor: pointer;
 }
 
-.socialMedia div {
+.socialMedia a {
     margin: 0px 10px;
     font-size: 1.5em;
+    text-decoration: none;
+    color: white;
     display: flex;
     flex-flow: row;
     align-items: center;
-}
-
-@media (max-width: 1024px) {
-    .headerCointainer{
-        background-size: 252%;
-        background-position-y: center;
-    }
 }
 
 @media (max-width: 500px) {
@@ -125,5 +114,35 @@
 
     .main__title {
         font-size: 4em;
+    }
+}
+
+@media (max-height: 600px) {
+
+    .logo {
+        margin-top: 20px;
+    }
+
+    .main__title {
+        font-size: 4em;
+        margin-top: 20px;
+    }
+
+    .signUpForm_container {
+        margin-top: 10px;
+    }
+
+    .signUpForm {
+        height: 40px;
+    }
+
+    .signUpForm div button {
+        height: 38px;
+    }
+}
+
+@media (max-height: 400px) {
+    .logo {
+        font-size: 1.1em;
     }
 }
