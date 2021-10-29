@@ -1,5 +1,6 @@
 import React from 'react'
 import SingUpBox from '../SingUpBox/SingUpBox'
+import SignUpAlert from '../SignUpAlert/SignUpAlert';
 import { BsLinkedin, BsInstagram, BsYoutube, BsTwitter, BsFacebook } from 'react-icons/bs';
 import "./Header.css"
 
@@ -25,6 +26,8 @@ function Header() {
                 <a href="#"> <BsTwitter className="socialMedia_icon"/> </a>
                 <a href="#"> <BsFacebook className="socialMedia_icon"/> </a>
             </div>
+
+            <SignUpAlert />
 
         </div>
     )

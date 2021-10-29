@@ -5,6 +5,8 @@ function SingUpBox() {
 
     function clickHandler(e){
         e.preventDefault(0)
+        
+        document.querySelector('.alert_container').classList.add('visible')
     }
 
     return (

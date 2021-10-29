@@ -1,0 +1,60 @@
+.alert_container {
+    height: 100%;
+    width: 100%;
+    display: none;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    z-index: 100;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.alertMessage_container {
+    height: 50vh;
+    width: 50vw;
+    min-width: 310px;
+    min-height: 250px;
+    border: 1px solid yellow;
+    border-radius: 10px;
+    background-color: gray;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(50, 50, 50, 0.8);
+}
+
+.alert_title {
+    margin: 10px 5px;
+    color: white;
+    font-family: 'Gobold', sans-serif;
+    font-style: italic;
+    font-size: 4vw;
+    font-size: 7vmin;
+}
+
+.alert_message {
+    margin: 10px 0px;
+    font-family: 'Gobold', sans-serif;
+    font-size: 1.5vw;
+    font-size: 2.5vmin;
+    color: white;
+    font-weight: lighter;
+}
+
+.alertMessage_container button {
+    margin: 10px 0px;
+    height: 45px;
+    width: 140px;
+    font-family: 'poppins';
+    font-weight: bolder;
+    font-size: 0.8em;
+    background-color: yellow;
+    border: none;
+    border-radius: 5px;
+}
+
+.visible {
+    display: flex;
+}
