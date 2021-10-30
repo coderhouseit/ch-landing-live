@@ -1,16 +1,12 @@
 .headerCointainer {
     min-height: 100vh;
     height: 100vh;
-    background-color: #6965DE;
+    background: rgb(105,101,222);
+    background: linear-gradient(90deg, rgba(105,101,222,1) 60%, rgba(151,110,219,1) 100%);
     display: flex;
     flex-flow: column nowrap;
     justify-content: center;
     align-content: center;
-    /* background-image: url("./assets/header-img.png");
-    background-size: cover;
-    background-position-y: center;
-    background-position-x: center;
-    background-repeat: no-repeat; */
     position: relative;
     z-index: 1;
 }
