@@ -5,8 +5,7 @@ import 'animate.css';
 function SingUpBox() {
 
     function clickHandler(e){
-        e.preventDefault()
-        
+
         document.querySelector('.alert_container').classList.remove('hidden')
         document.querySelector('.alert_container').classList.remove('animate__fadeOut')
         document.querySelector('.alert_container').classList.add('animate__fadeIn')
@@ -18,10 +17,10 @@ function SingUpBox() {
 
             <form className='signUpForm' action="#" method="get">
 
-                <input placeholder="Ingresá tu correo" type='text'/>
+                <input placeholder="Ingresá tu correo" type='text' required/>
                 
                 <div className='signUpForm_button_box'>
-                    <input type="submit" value="Inscribirse" onClick={ clickHandler } className=""/>
+                    <input type="submit" value="Inscribirse" onClick={ clickHandler }/>
                 </div>
                 
             </form>

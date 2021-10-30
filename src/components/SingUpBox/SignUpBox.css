@@ -111,3 +111,9 @@ input:focus {
     }
 }
 
+@media (max-height: 600px) {
+    .signUpForm div input {
+        height: 38px;
+    }
+}
+
