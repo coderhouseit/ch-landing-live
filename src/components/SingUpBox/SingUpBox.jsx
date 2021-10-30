@@ -16,12 +16,12 @@ function SingUpBox() {
     return (
         <div className="signUpForm_container">
 
-            <form className='signUpForm'>
+            <form className='signUpForm' action="#" method="get">
 
                 <input placeholder="Ingresá tu correo" type='text'/>
                 
                 <div className='signUpForm_button_box'>
-                    <button onClick={ clickHandler }>Inscribirse</button>
+                    <input type="submit" value="Inscribirse" onClick={ clickHandler } className=""/>
                 </div>
                 
             </form>
