@@ -1,11 +1,15 @@
 import React from 'react'
 import './SignUpBox.css'
+import 'animate.css';
 
 function SingUpBox() {
 
     function clickHandler(e){
-        e.preventDefault(0)
+        e.preventDefault()
         
+        document.querySelector('.alert_container').classList.remove('hidden')
+        document.querySelector('.alert_container').classList.remove('animate__fadeOut')
+        document.querySelector('.alert_container').classList.add('animate__fadeIn')
         document.querySelector('.alert_container').classList.add('visible')
     }
 

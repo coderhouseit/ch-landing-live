@@ -3,17 +3,20 @@ import SingUpBox from '../SingUpBox/SingUpBox'
 import SignUpAlert from '../SignUpAlert/SignUpAlert';
 import { BsLinkedin, BsInstagram, BsYoutube, BsTwitter, BsFacebook } from 'react-icons/bs';
 import "./Header.css"
+import 'animate.css';
 
 function Header() {
     return (
         <div className="headerCointainer">  
 
-            <div className="logo">CODER<span>SUMMIT21</span></div>
+            <div className="headerBackgroundImage animate__animated animate__fadeIn"></div>
+
+            <div className="logo animate__animated animate__fadeInDown">CODER<span>SUMMIT21</span></div>
                         
             <div className="mainContainer">
                 <div className="main__date">&lt; 21_<span>NOV_</span>2021 &gt;</div>
                 <div className="main_title_container">
-                    <div className="main__title">SÉ PARTE DE LO QUE SE VIENE</div>
+                    <div className="main__title animate__animated animate__fadeIn">SÉ PARTE DE LO QUE SE VIENE</div>
                 </div>
             </div>
             
