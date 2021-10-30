@@ -45,6 +45,7 @@
     align-items: center;
     background-color: transparent;
     position: absolute;
+    top: 97%;
 }
 
 .video {
@@ -87,20 +88,6 @@ iframe {
     border-radius: 50%;
 }
 
-.logo--footer {
-    margin-top: 1%;
-}
-  
-@keyframes fluid {
-    from {
-      background-position: top;
-    }
-  
-    to {
-      background-position: bottom;
-    }
-}
-
 .livePage_footer_container {
     padding: 10px 0px;
     margin: 10px 0px 0px 0px;
@@ -114,9 +101,9 @@ iframe {
 }
 
 .livepage_footer {
-    height: 15%;
+    height: auto;
     width: 100%;
-    padding: 0px 0px 20px 0px;
+    padding: 0px 0px 5px 0px;
 }
 
 .livepage_footer__line {
@@ -124,4 +111,63 @@ iframe {
     width: 100%;
     background-image: url(https://img.freepik.com/free-photo/_40163-61.jpg?size=626&ext=jpg); 
     background-size: 800%;
+}
+
+.logo_livePage--footer {
+    margin-top: 1%;
+    width: 100%;
+    height: auto;
+    font-family: 'Gobold', sans-serif;
+    font-style: italic;
+    font-size: 1.2em;
+    color: white;
+    animation-duration: 1.5s;
+}
+
+.logo_livePage--footer span {
+    background-image: url(https://img.freepik.com/free-photo/_40163-61.jpg?size=626&ext=jpg); 
+    background-clip: text;
+    -webkit-background-clip: text; 
+    -webkit-text-fill-color: transparent;
+    animation-duration: 40s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: linear;
+    animation-name: fluid;
+    background-size: 800%;
+}
+  
+@keyframes fluid {
+    from {
+      background-position: top;
+    }
+  
+    to {
+      background-position: bottom;
+    }
+}
+
+.socialMedia--footer {
+    margin-top: 1%;
+    width: 100%;
+    text-decoration: none;
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.socialMedia--footer a {
+    margin: 0px 5px;
+    font-size: 1em;
+    text-decoration: none;
+    color: white;
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+}
+
+.socialMedia--footer--icon {
+    cursor: pointer;
 }
